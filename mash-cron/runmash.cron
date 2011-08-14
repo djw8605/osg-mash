@@ -1,0 +1,4 @@
+*/10 * * * * root /usr/bin/mash osg-development
+0 * * * * root /usr/bin/mash osg-testing
+0 * * * * root /usr/bin/mash osg-production
+
