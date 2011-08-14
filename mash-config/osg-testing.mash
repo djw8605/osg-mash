@@ -1,0 +1,19 @@
+[osg-testing]
+rpm_path = %(arch)s/
+repodata_path = %(arch)s/
+source_path = source/SRPMS
+debuginfo = True
+multilib = False
+multilib_method = devel
+tag = el5-osg-testing
+inherit = False
+strict_keys = False
+#keys = 069C8460, 97A1071F, E8E40FDE, 57BBCCBA, D22E77F2, 4EBFC273, 0B86274E, 6DF2196F, DF9B0AE9
+use_repoview = True
+repoviewurl = http://glidein.unl.edu/vdt/testing/%(arch)s"
+repoviewtitle = "OSG Software Testing - %(arch)s"
+arches = i386 x86_64
+delta = True
+# Change distro_tags as fedora-release version gets bumped
+distro_tags = cpe:/o:opensciencegrid:3
+
